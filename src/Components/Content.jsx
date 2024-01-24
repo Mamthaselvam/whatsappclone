@@ -2,7 +2,7 @@ import React from 'react'
 import { DownloadOutlined } from '@ant-design/icons';
 import { Button} from 'antd';
 const Content = () => {
-  const bg="url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv1KwbIRp_24cBf2lyu11SNj5EWdNdx18ucoi4vY3T&s')"
+  const bg="url('https://scontent.whatsapp.net/v/t39.8562-34/316546300_547692113846445_7299710494491288098_n.png?ccb=1-7&_nc_sid=73b08c&_nc_ohc=wG3pEQNNK-sAX-wQG5X&_nc_ht=scontent.whatsapp.net&oh=01_AdSPX5jlH7gwNbN1TraXobHlF459vpZkLYajfC2VhPECiA&oe=65B6A4E5')"
   return (
     <div>
       <section  className=' container-fluid h-[85vh] flex items-center m-10 '
