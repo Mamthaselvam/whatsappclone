@@ -1,9 +1,12 @@
 import React from 'react'
 import Content from './Content'
-import { DownloadOutlined } from '@ant-design/icons';
 import { navs } from "../Data/Data.jsx";
+import { DownloadOutlined } from '@ant-design/icons';
 import { Button} from 'antd';
 import {Link} from 'react-router-dom';
+import Content2 from './Content2.jsx';
+import Speak from './Speak.jsx';
+import Video from './Video.jsx';
 const Header = () => {
   return (
     <div>
@@ -25,6 +28,9 @@ const Header = () => {
             </div>
         </div>
         <Content/>
+        <Content2/>
+        <Video/>
+        <Speak/>
     </div>
   )
 }
